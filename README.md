@@ -50,11 +50,12 @@ P.S. - Паттерн Page Object реализовать не удалось в�
 1. Скачать драйвер для используемой версии браузера - https://chromedriver.chromium.org/downloads
 2. Установить библиотеки из файла requirements.txt, запустив через терминал: pip install -r requirements.txt
 3. Запустить тесты через терминал:
-    python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_reg_pos.py
-    python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_reg_neg.py
-    python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_pos.py
-    python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_neg.py
-    python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_social.py
-   где "chromedriver.exe" - путь к расположению драйвера на компьтере,
-       "tests/test_reg_pos.py" - расположение файла тестов в директории проекта
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_reg_pos.py
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_reg_neg.py
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_pos.py
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_neg.py
+- python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test_auth_social.py
 
+   где "chromedriver.exe" - путь к расположению драйвера на компьтере,
+
+        "tests/test_reg_pos.py" - расположение файла тестов в директории проекта
